@@ -1,0 +1,51 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  pointer-events: none;
+}
+
+.toggle {
+
+  &__btn {
+    padding: 20px;
+    order: 9;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: var(--pink-color);
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -7px;
+      left: 4px;
+      display: block;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #fff;
+      transition: left 0.2s ease-in;
+    }
+
+    &--active {
+      &::before {
+        left: 55px;
+      }
+    }
+    &--icon {
+      position: relative;
+	    z-index: 9;
+      width: 50px;
+      height: 25px;
+    }
+  }
+}

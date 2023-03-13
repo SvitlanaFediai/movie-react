@@ -1,0 +1,49 @@
+.arrow {
+  position: absolute;
+  top: 50%;
+  width: 75px;
+  height: 100px;
+  cursor: pointer;
+  transform: translate(10%, -50%);
+
+  &__next {
+    right: -6%;
+  }
+
+  &__prev {
+    left: -6%;
+  }
+
+  &__icon {
+    width: 100%;
+    height: 100%;
+    color: var(--font-color);
+
+    &:hover {
+      background-color: rgba(222, 81, 142, 0.3);
+    }
+  }
+}
+
+.movie {
+ 
+  &__title {
+    font-size: 1.75rem;
+    margin: 2.5rem 0;
+    color: var(--pink-color);
+    text-transform: uppercase;
+    text-align: left;
+    background: rgba(222,81,142,.3);
+    border-left: 8px solid var(--pink-color);
+    padding: 10px;
+  }
+    
+  &__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    gap: 10px;
+  }   
+
+}
+

@@ -1,0 +1,27 @@
+@import-normalize;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shantell+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.light-theme {
+  --bg-color: #fff;
+  --font-color:#000;
+  --pink-color: #de518e;
+}
+
+.dark-theme {
+  --bg-color: #292a2d;;
+  --font-color: #fff;
+  --pink-color: #de518e;
+}

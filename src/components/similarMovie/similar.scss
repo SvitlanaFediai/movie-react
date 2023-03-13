@@ -1,0 +1,53 @@
+.similar {
+
+  &__movie {
+    margin-top: 300px;
+
+    @media screen and (min-width: 350px) and (max-width: 780px) {
+      margin-top: 420px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+
+    .cards {
+      max-height: 300px;
+    }
+  }
+  
+  &__title {
+    width: 100%;
+    text-align: left;
+    margin: 25px 0 50px;
+    text-transform: uppercase;
+    color: var(--pink-color);
+    position: relative;
+
+    &--center  {
+      text-align: center;
+    }
+
+    &::after {
+      content: '';
+      width: 100px;
+      height: 1px;
+      position: absolute;
+      left: 50%;
+      bottom: -20%;
+      transform: translateX(-50%);
+      background-color: var(--white);
+    }
+  }
+  
+}
+
+
+
+
