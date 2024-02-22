@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/movie-react/static/css/main.b75e9b18.css",
-    "main.js": "/movie-react/static/js/main.8a06c63a.js",
+    "main.css": "/movie-react/static/css/main.ecb14b8a.css",
+    "main.js": "/movie-react/static/js/main.3c0c19ce.js",
     "static/media/banner.jpg": "/movie-react/static/media/banner.f05d99f7725584c259d1.jpg",
     "static/media/logo.svg": "/movie-react/static/media/logo.e88a4cae517491afd6eb8e539a0bcaa2.svg",
     "static/media/slick.svg": "/movie-react/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -14,11 +14,11 @@
     "index.html": "/movie-react/index.html",
     "static/media/dark.svg": "/movie-react/static/media/dark.0a74e7ab91e046431c8acfe7787384db.svg",
     "static/media/linkedin.svg": "/movie-react/static/media/linkedin.526f23ece074b53965df8f49cd8bbb40.svg",
-    "main.b75e9b18.css.map": "/movie-react/static/css/main.b75e9b18.css.map",
-    "main.8a06c63a.js.map": "/movie-react/static/js/main.8a06c63a.js.map"
+    "main.ecb14b8a.css.map": "/movie-react/static/css/main.ecb14b8a.css.map",
+    "main.3c0c19ce.js.map": "/movie-react/static/js/main.3c0c19ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.b75e9b18.css",
-    "static/js/main.8a06c63a.js"
+    "static/css/main.ecb14b8a.css",
+    "static/js/main.3c0c19ce.js"
   ]
 }
